@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: darkgray;
+}
+header{
+    color:white
+}
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: black;
+}
+header div a{
+    text-decoration: none;
+    color: white;
+    padding: .5rem .5rem;
+    font-weight: bolder;
+}
+header div .active{
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+}
+header .header__bottom{
+    background-image: url(./assets/images/image01.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main div{
+    display: flex;
+   flex-direction: column;
+  
+   margin: 1rem;
+   padding: 1rem;
+   
+    background-color: white;
+    
+    
+    border-radius: 1rem;
+    
+}
+main div div{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+
+    
+
+}
+main div img{
+    height: 15rem;
+}
+
+main .main__midlee{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkgray;
+
+    
+}
+main .main__midlee section{
+    padding: 1rem;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10rem;
+   
+    width: 12rem;
+    background-color: white;
+    border-radius: 1rem;
+  
+
+}
+main .first__subtitle__main{
+    text-align: center;
+}
+main .subtitle__main{
+    color: white;
+    background-color: black;
+    margin: 0 2rem;
+    text-align: center;
+}
+main .main__bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: darkgray;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: bolder;
+
+    
+}
+input[type="submit"]{
+    margin-top: 1rem;
+    border-radius: .5rem;
+    padding: .1rem;
+    cursor: pointer;
+}
+table,tbody,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: .5rem;
+    background-color:white;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 1rem;
+    color: white;
+}
+footer a{
+    color: white;
+}
