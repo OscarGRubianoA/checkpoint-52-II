@@ -6,10 +6,10 @@
     
 }
 body{
-    background-color:darkgray;
+      background-color: darkgray;  
 }
 header{
-    color:white
+     color:white 
 }
 header div{
     display:flex;
